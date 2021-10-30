@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "img": "https://admin.banbanjara.com/public/frontend/uploads/product/1577703196666-bikingslideBanBanjara.jpg",
+        "serviceName": "Discover Ladakh By Bike",
+        "description": "This tour is for bike rider. This package is for 10 days long. We will start our journy from Dhaka. In this package we will provide Hotel, Transport facility. We also arange bike for our all booking tourist.",
+        "fee": 200
+    },
+    {
+        "id": 2,
+        "img": "https://image.shutterstock.com/image-photo/way-kargil-ladakh-kasmir-260nw-1795261357.jpg",
+        "serviceName": "Tour Da Kashmir",
+        "description": "This package for 7 days and the journy will start from Dhaka. In this package we will provide Hotel, Transport and Lunch & Dinner facility. The couple are welcome in this package. ",
+        "fee": 700
+    },
+    {
+        "id": 3,
+        "img": "https://imgcld.yatra.com/ytimages/image/upload/t_holidays_srplist_tablet_hc/v1500356961/Pura_Ulun_Danu_temple_on_a_lake_Beratan_on_Bali_Indonesia.jpg",
+        "serviceName": "Dhaka To Bali",
+        "description": "There is no direct flight from Dhaka to Bali. You have to take transit to Malaysia or Singapore. It takes 6 hours to reach Bali with transit in Kuala Lumpur. Bangladesh's time interval with Indonesia is 2 hours. We will arrange all formalities for you.",
+        "fee": 800
+    },
+    {
+        "id": 4,
+        "img": "https://cdn.tourradar.com/s3/tour/645x430/84919_5df9f6d75080a.jpg",
+        "serviceName": "Turkey Tour For 10 Days",
+        "description": "Start and end in Istanbul! With the In-depth Cultural tour Fantastic Turkey, you have a 10 days tour package taking you through Istanbul, Turkey and 2 other destinations in Turkey. Fantastic Turkey includes accommodation in a hotel as well as an expert guide, meals, transport and more.",
+        "fee": 520
+    },
+    {
+        "id": 5,
+        "img": "https://cdn.tourradar.com/s3/tour/1500x800/84918_90c05b.jpg",
+        "serviceName": "Aegean Trooper Tour",
+        "description": "Start and end in Istanbul! With the In-depth Cultural tour Aegean Trooper Tour, you have a 5 days tour package taking you through Istanbul, Turkey and 7 other destinations in Turkey. Aegean Trooper Tour includes accommodation in a hotel as well as flights, an expert guide, meals, transport and more.",
+        "fee": 950
+    },
+    {
+        "id": 6,
+        "img": "https://cdn.tourradar.com/s3/tour/1500x800/107686_f26dd3.jpg",
+        "serviceName": "Trails of Bohimean Paradise",
+        "description": "Start and end in Prague! With the Self-Guided tour Trails of Bohemian Paradise, you have a 7 days tour package taking you through Prague, Czech Republic and 5 other destinations in Czech Republic. Trails of Bohemian Paradise includes accommodation in a hotel as well as meals and more.",
+        "fee": 950
+    },
+    {
+        "id": 7,
+        "img": "https://cdn.tourradar.com/s3/tour/1500x800/107692_1f63cb73.jpg",
+        "serviceName": "Cinque Terre, Portofino and Portovenere",
+        "description": "Start in Levanto and end in Portofino! With the Self-Guided tour Cinque Terre, Portofino and Portovenere, you have a 8 days tour package taking you through Levanto, Italy and 11 other destinations in Italy. Cinque Terre, Portofino and Portovenere includes accommodation in a hotel as well as meals and more.",
+        "fee": 850
+    },
+    {
+        "id": 8,
+        "img": "https://cdn.tourradar.com/s3/tour/1500x800/62471_12eb81fd.jpg",
+        "serviceName": "8-Day Self-Guided Burren Cycle",
+        "description": "Start and end in Ennis! With the Bicycle tour 8-Day Self-Guided Burren Cycle, you have a 8 days tour package taking you through Ennis, Ireland and 3 other destinations in Ireland. 8-Day Self-Guided Burren Cycle includes accommodation and more.",
+        "fee": 800
+    }
+]

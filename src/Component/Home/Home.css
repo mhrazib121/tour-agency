@@ -1,0 +1,16 @@
+.top_banner{
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTMZrbFm6iP5nFJS0KY9NNPK0h41zoaiTpPywnBLbxpaZb69YShWmHqxUXkXIHZ2_y2KY&usqp=CAU'); */
+    /* background-image: url('https://k2adventuretravel.com/wp-content/uploads/2019/04/k2-adventure-travel.jpg'); */
+    background-image: url('https://www.goabroad.com/section_cloudinary/gaplabs/image/upload/v1/images2/program_content/prime-how-to-choose-the-best-adventure-travel-tour-companies-1504752924.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn{
+    background-color: salmon;
+    padding: 10px;
+    border-radius: 5px;
+}
+.details_bg{
+    /* background-color: rgba(128, 128, 128, 0.411); */
+    background-color: rgba(0, 0, 0, 0.239);
+}
