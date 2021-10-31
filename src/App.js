@@ -41,7 +41,7 @@ function App() {
             {/* DropDown Manu  */}
 
 
-            <Route path="/mybooking/:serviceId">
+            <Route path="/mybooking/:id">
               <MyBooking></MyBooking>
             </Route>
 

@@ -33,7 +33,7 @@ const Home = () => {
             <Container>
                 <Row className="g-3 m-3" xs={1} md={3} >
                     {
-                        services.map(service =>
+                        services.slice(0, 6).map(service =>
                             <ServiceCard key={service.id} service={service}></ServiceCard>
                         )
                     }

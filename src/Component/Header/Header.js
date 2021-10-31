@@ -10,9 +10,9 @@ const Header = () => {
     // console.log(logOut)
     return (
         <div>
-            <Navbar bg="dark" variant="dark">
+            <Navbar bg="dark" variant="dark" expand="lg">
                 <Container>
-                    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+                    <Navbar.Brand href="#home">World Tour Agency</Navbar.Brand>
                     <Nav className="me-auto menu-bar">
                         <NavLink className='header-btn' to="/home">Home</NavLink>
                         <NavLink className='header-btn' to="/services">Services</NavLink>
@@ -26,16 +26,7 @@ const Header = () => {
                         
                     {user.email ?
                             <>
-                                {/* <NavDropdown className="" title="Dropdown" id="basic-nav-dropdown">
-                                    <NavDropdown.Item to="/mybooking">My Booking</NavDropdown.Item>
-                                    <NavDropdown.Item to="managebooking">Manage Booking</NavDropdown.Item>
-                                    <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-
-                                    <NavDropdown.Divider />
-                                    <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                                </NavDropdown> */}
-
-                                {/* <!-- Example single danger button --> */}
+                                
                                 <div className="btn-group">
                                     <button type="button" className="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                                         My Deshboard

@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-Welcome to our World Tour Agency [Create React App](https://world-tour-agency-27064.web.app/).
+Welcome to our World Tour Agency [World Tour Agency](https://world-tour-agency-27064.web.app/).
 
 ## Available Scripts
 
