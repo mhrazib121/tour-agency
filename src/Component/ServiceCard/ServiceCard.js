@@ -3,8 +3,8 @@ import { Card, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const ServiceCard = (props) => {
-    console.log(props.service)
-    const {serviceName, description, img, } = props.service;
+    // console.log(props.service)
+    const {serviceName, description, img, _id } = props.service;
     return (
         <div>
         <Col className="shadow-lg ">
@@ -17,7 +17,7 @@ const ServiceCard = (props) => {
                         <h6> {description}</h6>
                     </div>
                   
-                    <Link className="btn text-white" to ={`/details/${description}`}> Booking Now </Link>
+                    <Link className="btn text-white" to ={`/mybooking/${_id}`}> Booking Now </Link>
                     {/* <button className="btn btn-success">Details</button> */}
                 </Card.Body>
             </Card>

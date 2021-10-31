@@ -38,13 +38,12 @@ const Header = () => {
                                 {/* <!-- Example single danger button --> */}
                                 <div className="btn-group">
                                     <button type="button" className="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Action
+                                        My Deshboard
                                     </button>
                                     <ul className="dropdown-menu">
                                         <Link className="dropdown-item" to="/mybooking">My Booking</Link>
                                         <Link className="dropdown-item" to="/managebooking">Manage Booking</Link>
-                                        <Link className="dropdown-item" to="/mybooking">Action</Link>
-                                        <Link className="dropdown-item" to="/mybooking">Another action</Link>
+                                        
                                         
                                     </ul>
                                 </div>

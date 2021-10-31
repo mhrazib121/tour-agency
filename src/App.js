@@ -12,6 +12,7 @@ import AuthProvider from './Context/AuthProvider';
 import MyBooking from './Component/MyBooking/MyBooking';
 import ManageBooking from './Component/ManageBooking.js/ManageBooking';
 import PrivateRoute from './Component/PrivateRoute/PrivateRoute';
+import NotFound from './Component/NotFound/NotFound';
 
 function App() {
   return (
@@ -40,7 +41,7 @@ function App() {
             {/* DropDown Manu  */}
 
 
-            <Route path="/mybooking">
+            <Route path="/mybooking/:serviceId">
               <MyBooking></MyBooking>
             </Route>
 
@@ -52,7 +53,8 @@ function App() {
               <Login></Login>
             </Route>
 
-            <Route path="/">
+            <Route path="*">
+              <NotFound></NotFound>
             </Route>
           </Switch>
 
