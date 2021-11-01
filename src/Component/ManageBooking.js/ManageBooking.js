@@ -1,18 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import { Row } from 'react-bootstrap';
-import useAuth from '../../Hooks/useAuth';
-import BookingItem from '../BookingItem/BookingItem';
+import ManageBookingItem from '../ManageBookingItem/ManageBookingItem';
 
 const ManageBooking = () => {
     const [bookings, setBookings] = useState([]);
-    const { user } = useAuth();
 
 
     useEffect(() => {
         fetch("https://dark-cheateau-90234.herokuapp.com/bookings")
             .then(res => res.json())
             .then(data => setBookings(data))
-    }, [])
+    }, [bookings])
 
     const deleteBooking = id => {
         const proceed = window.confirm('Are You Sure, You Want To Cancel');
@@ -31,14 +29,34 @@ const ManageBooking = () => {
                 });
         };
     };
+
+    const updateBooking = id =>{
+        const proceed = window.confirm('Do Want To Update Booking Status');
+        if (proceed) {
+            const url = `https://dark-cheateau-90234.herokuapp.com/bookings/${id}`;
+            fetch(url, {
+                method: 'PUT',
+                headers: {
+                    'content-type': 'application/json'
+                },
+                body: JSON.stringify({ status: 'Approved' })
+            })
+                .then(res => res.json())
+                .then(data => {
+                    if (data.modifiedCount > 0) {
+                        alert('Status Update Successfully');
+                    }
+                })
+        } 
+    }
     console.log(bookings);
     // const booking = bookings.map(booking=> booking)
     return (
         <div>
-            <h1> My booking </h1>
+            <h1> Manage All Booking </h1>
             <Row className="g-3 m-3" xs={1} md={3} >
                 {
-                    bookings.map(booking => <BookingItem key={booking?._id} booking={booking} deleteBooking={deleteBooking}> </BookingItem>
+                    bookings.map(booking => <ManageBookingItem key={booking?._id} booking={booking} deleteBooking={deleteBooking} updateBooking={updateBooking}> </ManageBookingItem>
                     )
                 }
             </Row>

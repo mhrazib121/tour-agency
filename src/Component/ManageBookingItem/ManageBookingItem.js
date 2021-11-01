@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 
-const BookingItem = (props) => {
+const ManageBookingItem = (props) => {
     const {_id, name, email, phone, address, status} = props.booking;
     const { img, serviceName, fee } = props.booking.package;
     return (
@@ -22,6 +22,9 @@ const BookingItem = (props) => {
                             <button onClick={() => props.deleteBooking(_id)} type="button" className="btn">Cancel</button>
                             <h4> Price: <span className="text-success">${fee}</span></h4>
                         </div>
+                        <br />
+                        <button onClick={() => props.updateBooking(_id)} type="button" className="btn">Status Update</button>
+                        
                     </Card.Body>
                 </Card>
             </Col>   
@@ -29,4 +32,4 @@ const BookingItem = (props) => {
     );
 };
 
-export default BookingItem;
+export default ManageBookingItem;
