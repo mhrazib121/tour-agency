@@ -39,7 +39,7 @@ const MyBooking = () => {
     // const booking = bookings.map(booking=> booking)
     return (
         <div>
-            <h1> My booking </h1>
+            <h1 className="text-center my-3"> My booking </h1>
             <Row className="g-3 m-3" xs={1} md={3} >
                 {
                     bookings.map(booking => <BookingItem key={booking?._id} booking={booking} deleteBooking={deleteBooking}> </BookingItem>

@@ -10,7 +10,7 @@ const Services = () => {
     
     return (
         <Container>
-            <h1> Our Best Tour Packages</h1>
+            <h1 className="text-center text-success my-3"> Our Best Tour Packages</h1>
             <Row className="g-3 m-3" xs={1} md={3} >
                 {
                     services.map(service =>

@@ -113,7 +113,7 @@ const Home = () => {
             <section className="bg-primary opinion-img p-3">
                 <div className="text-dark">
                     <h2 className="text-warning">LET'S STAY IN TOUCH</h2>
-                    <p>Get updates on sales specials and more</p>
+                    <p>Put your valuable opinion and feedback about us</p>
                     <input className="p-2 w-25" type="text" placeholder="Give Your opinion"/>
                     <br />
                     <button className="btn bg-btn">Submit</button>

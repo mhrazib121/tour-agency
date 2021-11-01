@@ -53,7 +53,7 @@ const ManageBooking = () => {
     // const booking = bookings.map(booking=> booking)
     return (
         <div>
-            <h1> Manage All Booking </h1>
+            <h1 className="text-center my-3"> Manage All Booking </h1>
             <Row className="g-3 m-3" xs={1} md={3} >
                 {
                     bookings.map(booking => <ManageBookingItem key={booking?._id} booking={booking} deleteBooking={deleteBooking} updateBooking={updateBooking}> </ManageBookingItem>
