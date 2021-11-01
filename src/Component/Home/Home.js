@@ -8,7 +8,7 @@ import './Home.css'
 const Home = () => {
     const [services] = useService();
     return (
-        <div >
+        <div className="App" >
             <div className="top_banner mb-5">
                 <section className="container  d-lg-flex
         align-items-center jusify-content-between p-5">
@@ -110,7 +110,7 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className="bg-primary p-3">
+            <section className="bg-primary opinion-img p-3">
                 <div className="text-dark">
                     <h2 className="text-warning">LET'S STAY IN TOUCH</h2>
                     <p>Get updates on sales specials and more</p>

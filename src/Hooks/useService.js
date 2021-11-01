@@ -3,11 +3,11 @@ import { useState } from 'react';
 
 const useService = () => {
     const [services, setServices] = useState([]);
-    useEffect(()=>{
+    useEffect(() => {
         fetch('https://dark-cheateau-90234.herokuapp.com/services')
-        .then(res => res.json())
-        .then(data => setServices(data))
-    },[])
+            .then(res => res.json())
+            .then(data => setServices(data))
+    }, [])
     return [
         services
     ]

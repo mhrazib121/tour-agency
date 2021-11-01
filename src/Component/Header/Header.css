@@ -1,6 +1,12 @@
 .header-btn{
     text-decoration: none;
-    margin-left: 10px;
+    margin-left: 15px;
+    background-color: cadetblue;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+
+    
 }
 .menu-bar{
     justify-content: center;

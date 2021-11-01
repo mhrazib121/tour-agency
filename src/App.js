@@ -9,14 +9,15 @@ import Home from './Component/Home/Home';
 import Services from './Component/Servicees/Services';
 import Login from './Component/Login/Login';
 import AuthProvider from './Context/AuthProvider';
-import MyBooking from './Component/MyBooking/MyBooking';
 import ManageBooking from './Component/ManageBooking.js/ManageBooking';
 import PrivateRoute from './Component/PrivateRoute/PrivateRoute';
 import NotFound from './Component/NotFound/NotFound';
+import PackageDetails from './Component/PackageDetails/PackageDetails';
+import MyBooking from './Component/MyBooking/MyBooking';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <AuthProvider>
         <BrowserRouter>
           <Header></Header>
@@ -41,9 +42,12 @@ function App() {
             {/* DropDown Manu  */}
 
 
-            <Route path="/mybooking/:id">
+            <PrivateRoute path="/packagedetails/:id">
+              <PackageDetails></PackageDetails>
+            </PrivateRoute>
+            <PrivateRoute path="/mybooking">
               <MyBooking></MyBooking>
-            </Route>
+            </PrivateRoute>
 
             <Route path="/managebooking">
               <ManageBooking></ManageBooking>

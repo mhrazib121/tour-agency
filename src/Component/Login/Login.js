@@ -6,7 +6,7 @@ import useAuth from '../../Hooks/useAuth';
 
 const Login = () => {
 
-    const {signInUsingGoogle} = useAuth();
+    const {signInUsingGoogle, setIsLoading} = useAuth();
     const location= useLocation();
     const history = useHistory();
     const redirect_url = location.state?.from || '/home'
@@ -23,6 +23,7 @@ const Login = () => {
         .catch((error)=>{
             // setError(error.massage)
         })
+        .finally(()=> setIsLoading(false))
     }
 
     return (
